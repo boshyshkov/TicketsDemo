@@ -9,6 +9,7 @@ using TicketsDemo.Domain.Interfaces;
 
 namespace TicketsDemo.Domain.DefaultImplementations
 {
+    
     public class TicketService : ITicketService
     {
         private ITicketRepository _tickRepo;
